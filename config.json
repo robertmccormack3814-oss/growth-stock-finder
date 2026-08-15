@@ -1,0 +1,19 @@
+{
+  "market": "ASX",
+  "min_market_cap_aud": 100000000,
+  "min_price_aud": 0.20,
+  "min_avg_dollar_volume_aud": 250000,
+  "pass_score": 78,
+  "watch_score": 65,
+  "max_risk_score_for_pass": 65,
+  "batch_size": 75,
+  "alert_cooldown_days": 7,
+  "benchmark": "^AXJO",
+  "weights": {
+    "growth": 30,
+    "quality": 25,
+    "balance_sheet": 15,
+    "momentum": 20,
+    "valuation": 10
+  }
+}
