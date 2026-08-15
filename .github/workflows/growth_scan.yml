@@ -1,16 +1,15 @@
-name: Growth Stock Finder
+name: Growth Stock Finder - NASDAQ
 
 on:
   workflow_dispatch:
     inputs:
       batch_size:
-        description: "Stocks to analyse this run"
+        description: "Nasdaq stocks to analyse this run"
         required: false
         default: "120"
   schedule:
-    - cron: "15 0,3 * * 1-5"
-    - cron: "45 6 * * 1-5"
-    - cron: "15 9 * * 1-5"
+    - cron: "15 22 * * 1-5"
+    - cron: "15 1,4,7 * * 2-6"
     - cron: "20 20 * * 0"
 
 permissions:
@@ -36,19 +35,19 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Build or refresh ASX universe
+      - name: Build or refresh Nasdaq universe
         shell: bash
         run: |
-          if [ ! -f data/universe.json ] || [ "$(date -u +%u)" = "7" ]; then
+          if [ ! -f data/universe.json ] || grep -q '"ticker": ".*\.AX"' data/universe.json || [ "$(date -u +%u)" = "7" ]; then
             python scripts/build_universe.py
           fi
 
-      - name: Run quality-growth scan
+      - name: Run Nasdaq quality-growth scan
         env:
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '120' }}
         run: python scripts/scan.py
 
-      - name: Update simulated performance ledger
+      - name: Update simulated NASDAQ performance ledger
         run: python scripts/update_ledger.py
 
       - name: Commit scanner state and ledger
@@ -57,6 +56,6 @@ jobs:
           git config user.name "Growth Stock Finder Bot"
           git config user.email "actions@github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Refresh growth stock signals and ledger"
+          git diff --cached --quiet || git commit -m "Refresh NASDAQ growth signals and ledger"
           git pull --rebase
           git push
