@@ -1,0 +1,61 @@
+name: Growth Stock Finder
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Stocks to analyse this run"
+        required: false
+        default: "120"
+  schedule:
+    - cron: "15 0,3 * * 1-5"
+    - cron: "45 6 * * 1-5"
+    - cron: "15 9 * * 1-5"
+    - cron: "20 20 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: growth-stock-finder
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build or refresh ASX universe
+        shell: bash
+        run: |
+          if [ ! -f data/universe.json ] || [ "$(date -u +%u)" = "7" ]; then
+            python scripts/build_universe.py
+          fi
+
+      - name: Run quality-growth scan
+        env:
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '120' }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+        run: python scripts/scan.py
+
+      - name: Commit scanner state
+        shell: bash
+        run: |
+          git config user.name "Growth Stock Finder Bot"
+          git config user.email "actions@github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Refresh growth stock signals"
+          git pull --rebase
+          git push
