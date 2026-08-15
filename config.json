@@ -7,8 +7,9 @@
   "watch_score": 65,
   "max_risk_score_for_pass": 65,
   "batch_size": 75,
-  "alert_cooldown_days": 7,
   "benchmark": "^AXJO",
+  "email_alerts_enabled": false,
+  "ledger_position_size_aud": 1000,
   "weights": {
     "growth": 30,
     "quality": 25,
