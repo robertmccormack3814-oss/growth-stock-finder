@@ -7,6 +7,13 @@ on:
         description: "Nasdaq stocks to analyse this run"
         required: false
         default: "120"
+  push:
+    branches: [main]
+    paths:
+      - "config.json"
+      - "requirements.txt"
+      - "scripts/**"
+      - ".github/workflows/growth_scan.yml"
   schedule:
     - cron: "15 22 * * 1-5"
     - cron: "15 1,4,7 * * 2-6"
