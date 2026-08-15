@@ -46,16 +46,17 @@ jobs:
       - name: Run quality-growth scan
         env:
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '120' }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
         run: python scripts/scan.py
 
-      - name: Commit scanner state
+      - name: Update simulated performance ledger
+        run: python scripts/update_ledger.py
+
+      - name: Commit scanner state and ledger
         shell: bash
         run: |
           git config user.name "Growth Stock Finder Bot"
           git config user.email "actions@github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Refresh growth stock signals"
+          git diff --cached --quiet || git commit -m "Refresh growth stock signals and ledger"
           git pull --rebase
           git push
