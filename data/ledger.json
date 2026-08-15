@@ -1,8 +1,8 @@
 {
   "created_at": "2026-08-16T08:44:00+10:00",
-  "updated_at": "2026-08-16T08:44:00+10:00",
+  "updated_at": "2026-08-15T22:54:54.236646+00:00",
   "position_size_aud": 1000,
-  "methodology": "Open a simulated equal-dollar position when a stock first becomes PASS; close it on the next fresh scan where it is no longer PASS. No brokerage, slippage, tax or dividends are included.",
+  "methodology": "Open a simulated US$1,000 equal-dollar position when a Nasdaq stock first becomes PASS; close it on the next fresh scan where it is no longer PASS. No brokerage, slippage, tax or dividends are included.",
   "summary": {
     "total_signals": 0,
     "open_positions": 0,
@@ -13,11 +13,14 @@
     "average_closed_return_pct": null,
     "best_closed_return_pct": null,
     "worst_closed_return_pct": null,
-    "realised_pnl": 0,
-    "unrealised_pnl": 0,
-    "total_pnl": 0,
-    "capital_allocated_across_signals": 0,
-    "aggregate_return_on_signal_capital_pct": 0
+    "realised_pnl": 0.0,
+    "unrealised_pnl": 0.0,
+    "total_pnl": 0.0,
+    "capital_allocated_across_signals": 0.0,
+    "aggregate_return_on_signal_capital_pct": 0.0
   },
-  "trades": []
+  "trades": [],
+  "market": "NASDAQ",
+  "currency": "USD",
+  "position_size_usd": 1000.0
 }
