@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from common import DATA, ROOT, load_json, now_iso, save_json
 
 CFG = load_json(ROOT / "config.json", {})
-POSITION_SIZE = float(CFG.get("ledger_position_size_aud", 1000))
+POSITION_SIZE = float(CFG.get("ledger_position_size_usd", 1000))
 MAX_RESULT_AGE_MINUTES = 120
 
 
@@ -42,14 +42,14 @@ def mark_trade(trade, price):
 
 def main():
     results = load_json(DATA / "results.json", {})
-    ledger = load_json(DATA / "ledger.json", {"trades": [], "created_at": now_iso()})
+    ledger = load_json(DATA / "ledger.json", {"trades": [], "market": "NASDAQ", "currency": "USD", "created_at": now_iso()})
     trades = ledger.setdefault("trades", [])
     now = datetime.now(timezone.utc)
 
     open_by_symbol = {t["symbol"]: t for t in trades if t.get("status") == "OPEN"}
 
     for symbol, row in results.items():
-        if not fresh_result(row, now):
+        if row.get("market") not in (None, "NASDAQ") or not fresh_result(row, now):
             continue
         price = row.get("price")
         if price is None or price <= 0:
@@ -81,6 +81,8 @@ def main():
                 "id": f"{symbol}-{len(trades)+1}",
                 "symbol": symbol,
                 "company": row.get("company"),
+                "market": "NASDAQ",
+                "currency": "USD",
                 "status": "OPEN",
                 "entry_date": row.get("updated_at") or now_iso(),
                 "entry_price": round(float(price), 4),
@@ -109,9 +111,11 @@ def main():
     losses = [t for t in closed_trades if float(t.get("pnl") or 0) < 0]
     returns = [float(t.get("return_pct") or 0) for t in closed_trades]
 
-    ledger["position_size_aud"] = POSITION_SIZE
+    ledger["market"] = "NASDAQ"
+    ledger["currency"] = "USD"
+    ledger["position_size_usd"] = POSITION_SIZE
     ledger["updated_at"] = now_iso()
-    ledger["methodology"] = "Open a simulated equal-dollar position when a stock first becomes PASS; close it on the next fresh scan where it is no longer PASS. No brokerage, slippage, tax or dividends are included."
+    ledger["methodology"] = "Open a simulated US$1,000 equal-dollar position when a Nasdaq stock first becomes PASS; close it on the next fresh scan where it is no longer PASS. No brokerage, slippage, tax or dividends are included."
     ledger["summary"] = {
         "total_signals": len(trades),
         "open_positions": len(open_trades),
@@ -129,7 +133,7 @@ def main():
         "aggregate_return_on_signal_capital_pct": round2(all_pnl / invested * 100) if invested else 0.0,
     }
     save_json(DATA / "ledger.json", ledger)
-    print(f"Ledger updated: {len(open_trades)} open, {len(closed_trades)} closed, P&L ${all_pnl:.2f}")
+    print(f"NASDAQ ledger updated: {len(open_trades)} open, {len(closed_trades)} closed, P&L US${all_pnl:.2f}")
 
 
 if __name__ == "__main__":
