@@ -1307,6 +1307,312 @@
       "score": 52.8,
       "risk_score": 11.9,
       "updated_at": "2026-08-17T23:03:03.216511+00:00"
+    },
+    "BFST": {
+      "status": "NO SIGNAL",
+      "score": 41.3,
+      "risk_score": 19.2,
+      "updated_at": "2026-08-18T03:32:54.673400+00:00"
+    },
+    "BGC": {
+      "status": "NO SIGNAL",
+      "score": 40.5,
+      "risk_score": 33.6,
+      "updated_at": "2026-08-18T03:32:55.302913+00:00"
+    },
+    "BHRB": {
+      "status": "NO SIGNAL",
+      "score": 40.0,
+      "risk_score": 19.0,
+      "updated_at": "2026-08-18T03:32:57.950522+00:00"
+    },
+    "BIIB": {
+      "status": "NO SIGNAL",
+      "score": 45.0,
+      "risk_score": 36.5,
+      "updated_at": "2026-08-18T03:32:59.315609+00:00"
+    },
+    "BIOA": {
+      "status": "NO SIGNAL",
+      "score": 28.5,
+      "risk_score": 49.6,
+      "updated_at": "2026-08-18T03:32:59.872110+00:00"
+    },
+    "BJRI": {
+      "status": "NO SIGNAL",
+      "score": 33.0,
+      "risk_score": 58.5,
+      "updated_at": "2026-08-18T03:33:02.627015+00:00"
+    },
+    "BKNG": {
+      "status": "NO SIGNAL",
+      "score": 63.1,
+      "risk_score": 22.4,
+      "updated_at": "2026-08-18T03:33:03.396444+00:00"
+    },
+    "BKR": {
+      "status": "NO SIGNAL",
+      "score": 44.0,
+      "risk_score": 37.7,
+      "updated_at": "2026-08-18T03:33:04.293103+00:00"
+    },
+    "BL": {
+      "status": "NO SIGNAL",
+      "score": 44.2,
+      "risk_score": 45.2,
+      "updated_at": "2026-08-18T03:33:05.172409+00:00"
+    },
+    "BLBD": {
+      "status": "NO SIGNAL",
+      "score": 57.0,
+      "risk_score": 32.7,
+      "updated_at": "2026-08-18T03:33:05.716293+00:00"
+    },
+    "BLDP": {
+      "status": "NO SIGNAL",
+      "score": 29.6,
+      "risk_score": 56.4,
+      "updated_at": "2026-08-18T03:33:06.412430+00:00"
+    },
+    "BLFS": {
+      "status": "NO SIGNAL",
+      "score": 51.0,
+      "risk_score": 56.6,
+      "updated_at": "2026-08-18T03:33:07.137812+00:00"
+    },
+    "BLKB": {
+      "status": "NO SIGNAL",
+      "score": 52.1,
+      "risk_score": 46.9,
+      "updated_at": "2026-08-18T03:33:08.315868+00:00"
+    },
+    "BLMN": {
+      "status": "NO SIGNAL",
+      "score": 39.9,
+      "risk_score": 62.1,
+      "updated_at": "2026-08-18T03:33:09.418086+00:00"
+    },
+    "BLZE": {
+      "status": "NO SIGNAL",
+      "score": 47.2,
+      "risk_score": 76.0,
+      "updated_at": "2026-08-18T03:33:11.038993+00:00"
+    },
+    "BMBL": {
+      "status": "NO SIGNAL",
+      "score": 41.1,
+      "risk_score": 84.1,
+      "updated_at": "2026-08-18T03:33:11.834198+00:00"
+    },
+    "BMRC": {
+      "status": "NO SIGNAL",
+      "score": 46.2,
+      "risk_score": 25.5,
+      "updated_at": "2026-08-18T03:33:14.243074+00:00"
+    },
+    "BMRN": {
+      "status": "NO SIGNAL",
+      "score": 50.4,
+      "risk_score": 24.8,
+      "updated_at": "2026-08-18T03:33:15.108194+00:00"
+    },
+    "BNAI": {
+      "status": "NO SIGNAL",
+      "score": 36.4,
+      "risk_score": 50.0,
+      "updated_at": "2026-08-18T03:33:15.836482+00:00"
+    },
+    "BNC": {
+      "status": "NO SIGNAL",
+      "score": 29.3,
+      "risk_score": 50.0,
+      "updated_at": "2026-08-18T03:33:16.366684+00:00"
+    },
+    "BNTC": {
+      "status": "NO SIGNAL",
+      "score": 41.9,
+      "risk_score": 38.3,
+      "updated_at": "2026-08-18T03:33:17.628973+00:00"
+    },
+    "BOKF": {
+      "status": "NO SIGNAL",
+      "score": 46.9,
+      "risk_score": 13.2,
+      "updated_at": "2026-08-18T03:33:18.925839+00:00"
+    },
+    "BOOM": {
+      "status": "NO SIGNAL",
+      "score": 46.6,
+      "risk_score": 66.0,
+      "updated_at": "2026-08-18T03:33:20.491674+00:00"
+    },
+    "BOTJ": {
+      "status": "NO SIGNAL",
+      "score": 46.5,
+      "risk_score": 31.7,
+      "updated_at": "2026-08-18T03:33:21.859357+00:00"
+    },
+    "BPOP": {
+      "status": "NO SIGNAL",
+      "score": 49.2,
+      "risk_score": 12.3,
+      "updated_at": "2026-08-18T03:33:23.150396+00:00"
+    },
+    "BPRN": {
+      "status": "NO SIGNAL",
+      "score": 55.4,
+      "risk_score": 31.5,
+      "updated_at": "2026-08-18T03:33:23.840116+00:00"
+    },
+    "BRCB": {
+      "status": "NO SIGNAL",
+      "score": 31.5,
+      "risk_score": 75.0,
+      "updated_at": "2026-08-18T03:33:25.307143+00:00"
+    },
+    "BRKR": {
+      "status": "NO SIGNAL",
+      "score": 40.0,
+      "risk_score": 61.1,
+      "updated_at": "2026-08-18T03:33:26.489608+00:00"
+    },
+    "BRR": {
+      "status": "NO SIGNAL",
+      "score": 38.5,
+      "risk_score": 62.4,
+      "updated_at": "2026-08-18T03:33:28.079055+00:00"
+    },
+    "BRUN": {
+      "status": "NO SIGNAL",
+      "score": 44.7,
+      "risk_score": 59.4,
+      "updated_at": "2026-08-18T03:33:28.931030+00:00"
+    },
+    "BRZE": {
+      "status": "NO SIGNAL",
+      "score": 53.9,
+      "risk_score": 35.4,
+      "updated_at": "2026-08-18T03:33:30.093596+00:00"
+    },
+    "BSET": {
+      "status": "NO SIGNAL",
+      "score": 41.6,
+      "risk_score": 38.7,
+      "updated_at": "2026-08-18T03:33:31.527060+00:00"
+    },
+    "BSRR": {
+      "status": "NO SIGNAL",
+      "score": 36.5,
+      "risk_score": 42.6,
+      "updated_at": "2026-08-18T03:33:32.677818+00:00"
+    },
+    "BSVN": {
+      "status": "NO SIGNAL",
+      "score": 38.7,
+      "risk_score": 43.3,
+      "updated_at": "2026-08-18T03:33:33.388690+00:00"
+    },
+    "BSY": {
+      "status": "NO SIGNAL",
+      "score": 49.1,
+      "risk_score": 39.8,
+      "updated_at": "2026-08-18T03:33:33.960068+00:00"
+    },
+    "BTBT": {
+      "status": "NO SIGNAL",
+      "score": 30.8,
+      "risk_score": 72.6,
+      "updated_at": "2026-08-18T03:33:35.355732+00:00"
+    },
+    "BTDR": {
+      "status": "NO SIGNAL",
+      "score": 32.1,
+      "risk_score": 68.6,
+      "updated_at": "2026-08-18T03:33:36.544151+00:00"
+    },
+    "BTQ": {
+      "status": "NO SIGNAL",
+      "score": 32.3,
+      "risk_score": 48.0,
+      "updated_at": "2026-08-18T03:33:38.073467+00:00"
+    },
+    "BULL": {
+      "status": "NO SIGNAL",
+      "score": 47.2,
+      "risk_score": 34.5,
+      "updated_at": "2026-08-18T03:33:38.964777+00:00"
+    },
+    "BUSE": {
+      "status": "NO SIGNAL",
+      "score": 46.2,
+      "risk_score": 16.7,
+      "updated_at": "2026-08-18T03:33:39.545386+00:00"
+    },
+    "BUUU": {
+      "status": "NO SIGNAL",
+      "score": 42.4,
+      "risk_score": 46.2,
+      "updated_at": "2026-08-18T03:33:40.335937+00:00"
+    },
+    "BVS": {
+      "status": "NO SIGNAL",
+      "score": 61.9,
+      "risk_score": 43.8,
+      "updated_at": "2026-08-18T03:33:41.614720+00:00"
+    },
+    "BWB": {
+      "status": "NO SIGNAL",
+      "score": 49.4,
+      "risk_score": 19.8,
+      "updated_at": "2026-08-18T03:33:42.148151+00:00"
+    },
+    "BWEN": {
+      "status": "NO SIGNAL",
+      "score": 54.2,
+      "risk_score": 73.1,
+      "updated_at": "2026-08-18T03:33:42.843516+00:00"
+    },
+    "BWFG": {
+      "status": "NO SIGNAL",
+      "score": 52.6,
+      "risk_score": 20.9,
+      "updated_at": "2026-08-18T03:33:43.409071+00:00"
+    },
+    "BWIN": {
+      "status": "NO SIGNAL",
+      "score": 49.2,
+      "risk_score": 51.8,
+      "updated_at": "2026-08-18T03:33:43.990588+00:00"
+    },
+    "BWMN": {
+      "status": "NO SIGNAL",
+      "score": 45.6,
+      "risk_score": 54.4,
+      "updated_at": "2026-08-18T03:33:44.765894+00:00"
+    },
+    "BXBL": {
+      "status": "NO SIGNAL",
+      "score": 33.8,
+      "risk_score": 47.4,
+      "updated_at": "2026-08-18T03:33:45.343172+00:00"
+    },
+    "BYND": {
+      "status": "NO SIGNAL",
+      "score": 33.6,
+      "risk_score": 83.3,
+      "updated_at": "2026-08-18T03:33:46.487898+00:00"
+    },
+    "BZ": {
+      "status": "NO SIGNAL",
+      "score": 60.0,
+      "risk_score": 26.2,
+      "updated_at": "2026-08-18T03:33:47.620749+00:00"
+    },
+    "CABA": {
+      "status": "NO SIGNAL",
+      "score": 33.4,
+      "risk_score": 60.2,
+      "updated_at": "2026-08-18T03:33:49.150266+00:00"
     }
   },
   "market": "NASDAQ"
