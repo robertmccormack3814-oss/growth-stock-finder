@@ -1,6 +1,6 @@
 {
   "created_at": "2026-08-16T08:44:00+10:00",
-  "updated_at": "2026-08-18T03:33:49.284479+00:00",
+  "updated_at": "2026-08-18T05:50:52.696874+00:00",
   "position_size_aud": 1000,
   "methodology": "Open a simulated US$1,000 equal-dollar position when a Nasdaq stock first becomes PASS; close it on the next fresh scan where it is no longer PASS. No brokerage, slippage, tax or dividends are included.",
   "summary": {
