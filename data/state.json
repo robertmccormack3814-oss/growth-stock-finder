@@ -6047,6 +6047,402 @@
       "score": 47.7,
       "risk_score": 46.0,
       "updated_at": "2026-08-20T23:05:05.517294+00:00"
+    },
+    "MNPR": {
+      "status": "NO SIGNAL",
+      "score": 44.5,
+      "risk_score": 51.9,
+      "updated_at": "2026-08-21T03:59:50.528608+00:00"
+    },
+    "MNRO": {
+      "status": "NO SIGNAL",
+      "score": 24.2,
+      "risk_score": 73.7,
+      "updated_at": "2026-08-21T03:59:51.169622+00:00"
+    },
+    "MNSB": {
+      "status": "NO SIGNAL",
+      "score": 36.8,
+      "risk_score": 32.6,
+      "updated_at": "2026-08-21T03:59:51.947843+00:00"
+    },
+    "MNST": {
+      "status": "NO SIGNAL",
+      "score": 53.8,
+      "risk_score": 32.7,
+      "updated_at": "2026-08-21T03:59:52.578185+00:00"
+    },
+    "MORN": {
+      "status": "NO SIGNAL",
+      "score": 62.1,
+      "risk_score": 41.8,
+      "updated_at": "2026-08-21T03:59:55.312934+00:00"
+    },
+    "MOVE": {
+      "status": "NO SIGNAL",
+      "score": 46.9,
+      "risk_score": 57.1,
+      "updated_at": "2026-08-21T03:59:55.891814+00:00"
+    },
+    "MPAA": {
+      "status": "NO SIGNAL",
+      "score": 26.5,
+      "risk_score": 78.3,
+      "updated_at": "2026-08-21T03:59:56.616755+00:00"
+    },
+    "MPB": {
+      "status": "NO SIGNAL",
+      "score": 50.5,
+      "risk_score": 18.8,
+      "updated_at": "2026-08-21T03:59:57.191815+00:00"
+    },
+    "MPWR": {
+      "status": "WATCH",
+      "score": 67.3,
+      "risk_score": 44.3,
+      "updated_at": "2026-08-21T03:59:58.166038+00:00"
+    },
+    "MQ": {
+      "status": "NO SIGNAL",
+      "score": 43.0,
+      "risk_score": 43.7,
+      "updated_at": "2026-08-21T03:59:58.734694+00:00"
+    },
+    "MRAM": {
+      "status": "NO SIGNAL",
+      "score": 42.6,
+      "risk_score": 62.4,
+      "updated_at": "2026-08-21T03:59:59.436575+00:00"
+    },
+    "MRBK": {
+      "status": "NO SIGNAL",
+      "score": 30.5,
+      "risk_score": 43.9,
+      "updated_at": "2026-08-21T04:00:00.245863+00:00"
+    },
+    "MRCY": {
+      "status": "NO SIGNAL",
+      "score": 32.0,
+      "risk_score": 42.3,
+      "updated_at": "2026-08-21T04:00:01.566808+00:00"
+    },
+    "MRDN": {
+      "status": "NO SIGNAL",
+      "score": 44.7,
+      "risk_score": 67.5,
+      "updated_at": "2026-08-21T04:00:02.348886+00:00"
+    },
+    "MRLN": {
+      "status": "NO SIGNAL",
+      "score": 30.7,
+      "risk_score": 53.8,
+      "updated_at": "2026-08-21T04:00:03.282896+00:00"
+    },
+    "MRNA": {
+      "status": "NO SIGNAL",
+      "score": 42.5,
+      "risk_score": 35.1,
+      "updated_at": "2026-08-21T04:00:04.035216+00:00"
+    },
+    "MRTN": {
+      "status": "NO SIGNAL",
+      "score": 29.3,
+      "risk_score": 41.5,
+      "updated_at": "2026-08-21T04:00:05.109910+00:00"
+    },
+    "MRVI": {
+      "status": "NO SIGNAL",
+      "score": 41.9,
+      "risk_score": 39.8,
+      "updated_at": "2026-08-21T04:00:05.870265+00:00"
+    },
+    "MRVL": {
+      "status": "NO SIGNAL",
+      "score": 55.3,
+      "risk_score": 55.5,
+      "updated_at": "2026-08-21T04:00:06.645773+00:00"
+    },
+    "MRX": {
+      "status": "NO SIGNAL",
+      "score": 57.5,
+      "risk_score": 41.8,
+      "updated_at": "2026-08-21T04:00:07.327948+00:00"
+    },
+    "MSBI": {
+      "status": "NO SIGNAL",
+      "score": 52.2,
+      "risk_score": 31.4,
+      "updated_at": "2026-08-21T04:00:08.268713+00:00"
+    },
+    "MSEX": {
+      "status": "NO SIGNAL",
+      "score": 47.4,
+      "risk_score": 22.8,
+      "updated_at": "2026-08-21T04:00:08.994565+00:00"
+    },
+    "MSFT": {
+      "status": "NO SIGNAL",
+      "score": 64.2,
+      "risk_score": 16.9,
+      "updated_at": "2026-08-21T04:00:09.696013+00:00"
+    },
+    "MSTR": {
+      "status": "NO SIGNAL",
+      "score": 33.4,
+      "risk_score": 50.1,
+      "updated_at": "2026-08-21T04:00:11.916966+00:00"
+    },
+    "MTCH": {
+      "status": "WATCH",
+      "score": 67.1,
+      "risk_score": 26.8,
+      "updated_at": "2026-08-21T04:00:13.052076+00:00"
+    },
+    "MTRX": {
+      "status": "NO SIGNAL",
+      "score": 27.1,
+      "risk_score": 55.5,
+      "updated_at": "2026-08-21T04:00:14.631382+00:00"
+    },
+    "MTSI": {
+      "status": "NO SIGNAL",
+      "score": 59.7,
+      "risk_score": 41.1,
+      "updated_at": "2026-08-21T04:00:15.404642+00:00"
+    },
+    "MU": {
+      "status": "WATCH",
+      "score": 73.4,
+      "risk_score": 50.7,
+      "updated_at": "2026-08-21T04:00:16.559967+00:00"
+    },
+    "MVBF": {
+      "status": "NO SIGNAL",
+      "score": 52.7,
+      "risk_score": 29.7,
+      "updated_at": "2026-08-21T04:00:17.187743+00:00"
+    },
+    "MXCT": {
+      "status": "NO SIGNAL",
+      "score": 40.5,
+      "risk_score": 61.6,
+      "updated_at": "2026-08-21T04:00:19.119110+00:00"
+    },
+    "MXL": {
+      "status": "NO SIGNAL",
+      "score": 45.0,
+      "risk_score": 51.6,
+      "updated_at": "2026-08-21T04:00:19.721190+00:00"
+    },
+    "MYFW": {
+      "status": "NO SIGNAL",
+      "score": 48.5,
+      "risk_score": 29.1,
+      "updated_at": "2026-08-21T04:00:20.315321+00:00"
+    },
+    "MYGN": {
+      "status": "NO SIGNAL",
+      "score": 34.2,
+      "risk_score": 64.6,
+      "updated_at": "2026-08-21T04:00:21.066848+00:00"
+    },
+    "MYRG": {
+      "status": "NO SIGNAL",
+      "score": 50.5,
+      "risk_score": 31.1,
+      "updated_at": "2026-08-21T04:00:21.939044+00:00"
+    },
+    "MZTI": {
+      "status": "NO SIGNAL",
+      "score": 37.2,
+      "risk_score": 35.0,
+      "updated_at": "2026-08-21T04:00:23.319702+00:00"
+    },
+    "NAGE": {
+      "status": "NO SIGNAL",
+      "score": 31.4,
+      "risk_score": 83.3,
+      "updated_at": "2026-08-21T04:00:23.961440+00:00"
+    },
+    "NAKA": {
+      "status": "NO SIGNAL",
+      "score": 28.7,
+      "risk_score": 78.5,
+      "updated_at": "2026-08-21T04:00:24.876870+00:00"
+    },
+    "NAMS": {
+      "status": "NO SIGNAL",
+      "score": 30.3,
+      "risk_score": 29.6,
+      "updated_at": "2026-08-21T04:00:25.900637+00:00"
+    },
+    "NATH": {
+      "status": "NO SIGNAL",
+      "score": 44.9,
+      "risk_score": 27.6,
+      "updated_at": "2026-08-21T04:00:26.872025+00:00"
+    },
+    "NATR": {
+      "status": "NO SIGNAL",
+      "score": 36.0,
+      "risk_score": 58.8,
+      "updated_at": "2026-08-21T04:00:27.715132+00:00"
+    },
+    "NAVI": {
+      "status": "NO SIGNAL",
+      "score": 45.0,
+      "risk_score": 51.4,
+      "updated_at": "2026-08-21T04:00:28.553292+00:00"
+    },
+    "NB": {
+      "status": "NO SIGNAL",
+      "score": 30.3,
+      "risk_score": 41.3,
+      "updated_at": "2026-08-21T04:00:29.581442+00:00"
+    },
+    "NBBK": {
+      "status": "NO SIGNAL",
+      "score": 52.0,
+      "risk_score": 17.9,
+      "updated_at": "2026-08-21T04:00:30.241830+00:00"
+    },
+    "NBIS": {
+      "status": "NO SIGNAL",
+      "score": 49.8,
+      "risk_score": 53.8,
+      "updated_at": "2026-08-21T04:00:30.960783+00:00"
+    },
+    "NBIX": {
+      "status": "WATCH",
+      "score": 70.8,
+      "risk_score": 18.3,
+      "updated_at": "2026-08-21T04:00:31.715121+00:00"
+    },
+    "NBN": {
+      "status": "NO SIGNAL",
+      "score": 43.3,
+      "risk_score": 22.5,
+      "updated_at": "2026-08-21T04:00:32.405583+00:00"
+    },
+    "NBTB": {
+      "status": "NO SIGNAL",
+      "score": 48.9,
+      "risk_score": 14.9,
+      "updated_at": "2026-08-21T04:00:33.588562+00:00"
+    },
+    "NBTX": {
+      "status": "NO SIGNAL",
+      "score": 42.5,
+      "risk_score": 40.7,
+      "updated_at": "2026-08-21T04:00:34.205347+00:00"
+    },
+    "NCMI": {
+      "status": "NO SIGNAL",
+      "score": 41.6,
+      "risk_score": 64.1,
+      "updated_at": "2026-08-21T04:00:35.803085+00:00"
+    },
+    "NCNO": {
+      "status": "NO SIGNAL",
+      "score": 52.9,
+      "risk_score": 29.8,
+      "updated_at": "2026-08-21T04:00:36.520975+00:00"
+    },
+    "NCSM": {
+      "status": "NO SIGNAL",
+      "score": 42.4,
+      "risk_score": 65.9,
+      "updated_at": "2026-08-21T04:00:38.215675+00:00"
+    },
+    "NCT": {
+      "status": "NO SIGNAL",
+      "score": 29.2,
+      "risk_score": 55.4,
+      "updated_at": "2026-08-21T04:00:38.931588+00:00"
+    },
+    "NDAQ": {
+      "status": "NO SIGNAL",
+      "score": 54.9,
+      "risk_score": 20.0,
+      "updated_at": "2026-08-21T04:00:40.016774+00:00"
+    },
+    "NDSN": {
+      "status": "NO SIGNAL",
+      "score": 53.1,
+      "risk_score": 35.6,
+      "updated_at": "2026-08-21T04:00:41.354211+00:00"
+    },
+    "NEGG": {
+      "status": "NO SIGNAL",
+      "score": 35.1,
+      "risk_score": 63.9,
+      "updated_at": "2026-08-21T04:00:42.062191+00:00"
+    },
+    "NEO": {
+      "status": "NO SIGNAL",
+      "score": 44.4,
+      "risk_score": 72.1,
+      "updated_at": "2026-08-21T04:00:42.684380+00:00"
+    },
+    "NEOG": {
+      "status": "NO SIGNAL",
+      "score": 44.0,
+      "risk_score": 69.0,
+      "updated_at": "2026-08-21T04:00:43.372495+00:00"
+    },
+    "NEOV": {
+      "status": "NO SIGNAL",
+      "score": 32.6,
+      "risk_score": 50.0,
+      "updated_at": "2026-08-21T04:00:44.338779+00:00"
+    },
+    "NERV": {
+      "status": "NO SIGNAL",
+      "score": 33.3,
+      "risk_score": 55.7,
+      "updated_at": "2026-08-21T04:00:45.194248+00:00"
+    },
+    "NEWT": {
+      "status": "NO SIGNAL",
+      "score": 41.7,
+      "risk_score": 53.6,
+      "updated_at": "2026-08-21T04:00:46.290031+00:00"
+    },
+    "NEXN": {
+      "status": "NO SIGNAL",
+      "score": 52.8,
+      "risk_score": 48.8,
+      "updated_at": "2026-08-21T04:00:48.884415+00:00"
+    },
+    "NEXT": {
+      "status": "NO SIGNAL",
+      "score": 25.3,
+      "risk_score": 82.1,
+      "updated_at": "2026-08-21T04:00:49.805861+00:00"
+    },
+    "NFLX": {
+      "status": "NO SIGNAL",
+      "score": 52.2,
+      "risk_score": 41.5,
+      "updated_at": "2026-08-21T04:00:50.695248+00:00"
+    },
+    "NGEN": {
+      "status": "NO SIGNAL",
+      "score": 27.7,
+      "risk_score": 61.7,
+      "updated_at": "2026-08-21T04:00:51.464068+00:00"
+    },
+    "NGNE": {
+      "status": "NO SIGNAL",
+      "score": 42.2,
+      "risk_score": 56.6,
+      "updated_at": "2026-08-21T04:00:52.086791+00:00"
+    },
+    "NHIC": {
+      "status": "NO SIGNAL",
+      "score": 37.8,
+      "risk_score": 34.2,
+      "updated_at": "2026-08-21T04:00:52.793619+00:00"
     }
   },
   "market": "NASDAQ"
