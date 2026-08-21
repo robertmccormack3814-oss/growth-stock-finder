@@ -6845,6 +6845,450 @@
       "score": 36.4,
       "risk_score": 55.8,
       "updated_at": "2026-08-21T05:54:10.250936+00:00"
+    },
+    "OLED": {
+      "status": "NO SIGNAL",
+      "score": 44.8,
+      "risk_score": 56.1,
+      "updated_at": "2026-08-21T09:19:20.613054+00:00"
+    },
+    "OLLI": {
+      "status": "NO SIGNAL",
+      "score": 43.4,
+      "risk_score": 27.2,
+      "updated_at": "2026-08-21T09:19:21.425659+00:00"
+    },
+    "OLMA": {
+      "status": "NO SIGNAL",
+      "score": 29.8,
+      "risk_score": 55.2,
+      "updated_at": "2026-08-21T09:19:22.216299+00:00"
+    },
+    "OMCL": {
+      "status": "NO SIGNAL",
+      "score": 42.7,
+      "risk_score": 33.8,
+      "updated_at": "2026-08-21T09:19:23.743839+00:00"
+    },
+    "OMDA": {
+      "status": "NO SIGNAL",
+      "score": 52.4,
+      "risk_score": 49.7,
+      "updated_at": "2026-08-21T09:19:24.385936+00:00"
+    },
+    "OMER": {
+      "status": "NO SIGNAL",
+      "score": 52.5,
+      "risk_score": 65.8,
+      "updated_at": "2026-08-21T09:19:25.218391+00:00"
+    },
+    "ON": {
+      "status": "NO SIGNAL",
+      "score": 50.9,
+      "risk_score": 53.6,
+      "updated_at": "2026-08-21T09:19:27.077364+00:00"
+    },
+    "ONB": {
+      "status": "NO SIGNAL",
+      "score": 49.1,
+      "risk_score": 16.0,
+      "updated_at": "2026-08-21T09:19:28.083926+00:00"
+    },
+    "ONDS": {
+      "status": "NO SIGNAL",
+      "score": 42.4,
+      "risk_score": 51.0,
+      "updated_at": "2026-08-21T09:19:29.662033+00:00"
+    },
+    "ONEW": {
+      "status": "NO SIGNAL",
+      "score": 23.9,
+      "risk_score": 82.0,
+      "updated_at": "2026-08-21T09:19:30.838752+00:00"
+    },
+    "OPAL": {
+      "status": "NO SIGNAL",
+      "score": 24.7,
+      "risk_score": 54.6,
+      "updated_at": "2026-08-21T09:19:33.014266+00:00"
+    },
+    "OPBK": {
+      "status": "NO SIGNAL",
+      "score": 49.9,
+      "risk_score": 38.7,
+      "updated_at": "2026-08-21T09:19:33.979726+00:00"
+    },
+    "OPCH": {
+      "status": "NO SIGNAL",
+      "score": 36.4,
+      "risk_score": 33.1,
+      "updated_at": "2026-08-21T09:19:34.573952+00:00"
+    },
+    "OPEN": {
+      "status": "NO SIGNAL",
+      "score": 23.0,
+      "risk_score": 68.2,
+      "updated_at": "2026-08-21T09:19:35.262066+00:00"
+    },
+    "OPK": {
+      "status": "NO SIGNAL",
+      "score": 42.8,
+      "risk_score": 38.9,
+      "updated_at": "2026-08-21T09:19:36.074244+00:00"
+    },
+    "OPRT": {
+      "status": "NO SIGNAL",
+      "score": 46.2,
+      "risk_score": 70.6,
+      "updated_at": "2026-08-21T09:19:36.765076+00:00"
+    },
+    "OPRX": {
+      "status": "NO SIGNAL",
+      "score": 40.6,
+      "risk_score": 70.8,
+      "updated_at": "2026-08-21T09:19:37.475614+00:00"
+    },
+    "OPTX": {
+      "status": "NO SIGNAL",
+      "score": 38.5,
+      "risk_score": 53.3,
+      "updated_at": "2026-08-21T09:19:38.425358+00:00"
+    },
+    "ORGO": {
+      "status": "NO SIGNAL",
+      "score": 33.9,
+      "risk_score": 58.8,
+      "updated_at": "2026-08-21T09:19:39.944353+00:00"
+    },
+    "ORIC": {
+      "status": "NO SIGNAL",
+      "score": 42.2,
+      "risk_score": 39.7,
+      "updated_at": "2026-08-21T09:19:40.858505+00:00"
+    },
+    "ORKA": {
+      "status": "NO SIGNAL",
+      "score": 41.9,
+      "risk_score": 39.9,
+      "updated_at": "2026-08-21T09:19:42.249682+00:00"
+    },
+    "ORLY": {
+      "status": "NO SIGNAL",
+      "score": 39.2,
+      "risk_score": 22.4,
+      "updated_at": "2026-08-21T09:19:43.316480+00:00"
+    },
+    "ORMP": {
+      "status": "NO SIGNAL",
+      "score": 52.3,
+      "risk_score": 37.5,
+      "updated_at": "2026-08-21T09:19:44.035038+00:00"
+    },
+    "ORRF": {
+      "status": "NO SIGNAL",
+      "score": 37.6,
+      "risk_score": 26.2,
+      "updated_at": "2026-08-21T09:19:44.704249+00:00"
+    },
+    "OSBC": {
+      "status": "NO SIGNAL",
+      "score": 47.6,
+      "risk_score": 16.9,
+      "updated_at": "2026-08-21T09:19:45.411900+00:00"
+    },
+    "OSIS": {
+      "status": "NO SIGNAL",
+      "score": 27.3,
+      "risk_score": 54.2,
+      "updated_at": "2026-08-21T09:19:46.020106+00:00"
+    },
+    "OSPN": {
+      "status": "NO SIGNAL",
+      "score": 53.6,
+      "risk_score": 60.4,
+      "updated_at": "2026-08-21T09:19:46.741403+00:00"
+    },
+    "OSS": {
+      "status": "NO SIGNAL",
+      "score": 47.9,
+      "risk_score": 68.0,
+      "updated_at": "2026-08-21T09:19:47.803126+00:00"
+    },
+    "OSUR": {
+      "status": "NO SIGNAL",
+      "score": 35.0,
+      "risk_score": 47.3,
+      "updated_at": "2026-08-21T09:19:48.761011+00:00"
+    },
+    "OSW": {
+      "status": "NO SIGNAL",
+      "score": 45.3,
+      "risk_score": 19.3,
+      "updated_at": "2026-08-21T09:19:49.483029+00:00"
+    },
+    "OTEX": {
+      "status": "NO SIGNAL",
+      "score": 50.6,
+      "risk_score": 40.4,
+      "updated_at": "2026-08-21T09:19:50.146839+00:00"
+    },
+    "OTTR": {
+      "status": "NO SIGNAL",
+      "score": 42.6,
+      "risk_score": 27.7,
+      "updated_at": "2026-08-21T09:19:51.377472+00:00"
+    },
+    "OUST": {
+      "status": "NO SIGNAL",
+      "score": 42.4,
+      "risk_score": 51.8,
+      "updated_at": "2026-08-21T09:19:52.236897+00:00"
+    },
+    "OVBC": {
+      "status": "NO SIGNAL",
+      "score": 32.8,
+      "risk_score": 49.2,
+      "updated_at": "2026-08-21T09:19:53.069489+00:00"
+    },
+    "OVID": {
+      "status": "NO SIGNAL",
+      "score": 42.0,
+      "risk_score": 42.7,
+      "updated_at": "2026-08-21T09:19:53.707753+00:00"
+    },
+    "OVLY": {
+      "status": "NO SIGNAL",
+      "score": 32.7,
+      "risk_score": 43.1,
+      "updated_at": "2026-08-21T09:19:54.579501+00:00"
+    },
+    "OXLC": {
+      "status": "NO SIGNAL",
+      "score": 41.5,
+      "risk_score": 41.9,
+      "updated_at": "2026-08-21T09:19:56.039810+00:00"
+    },
+    "OXSQ": {
+      "status": "NO SIGNAL",
+      "score": 41.6,
+      "risk_score": 62.7,
+      "updated_at": "2026-08-21T09:19:58.350399+00:00"
+    },
+    "OZK": {
+      "status": "NO SIGNAL",
+      "score": 28.4,
+      "risk_score": 34.6,
+      "updated_at": "2026-08-21T09:19:59.994438+00:00"
+    },
+    "PACB": {
+      "status": "NO SIGNAL",
+      "score": 35.3,
+      "risk_score": 68.9,
+      "updated_at": "2026-08-21T09:20:00.834101+00:00"
+    },
+    "PAGP": {
+      "status": "NO SIGNAL",
+      "score": 56.0,
+      "risk_score": 8.5,
+      "updated_at": "2026-08-21T09:20:01.997049+00:00"
+    },
+    "PAHC": {
+      "status": "NO SIGNAL",
+      "score": 39.4,
+      "risk_score": 47.8,
+      "updated_at": "2026-08-21T09:20:02.645699+00:00"
+    },
+    "PAL": {
+      "status": "NO SIGNAL",
+      "score": 28.5,
+      "risk_score": 74.5,
+      "updated_at": "2026-08-21T09:20:03.322031+00:00"
+    },
+    "PALI": {
+      "status": "NO SIGNAL",
+      "score": 39.4,
+      "risk_score": 65.4,
+      "updated_at": "2026-08-21T09:20:03.928470+00:00"
+    },
+    "PANL": {
+      "status": "NO SIGNAL",
+      "score": 44.9,
+      "risk_score": 38.0,
+      "updated_at": "2026-08-21T09:20:05.067732+00:00"
+    },
+    "PANW": {
+      "status": "NO SIGNAL",
+      "score": 48.4,
+      "risk_score": 32.0,
+      "updated_at": "2026-08-21T09:20:05.858250+00:00"
+    },
+    "PATK": {
+      "status": "NO SIGNAL",
+      "score": 31.5,
+      "risk_score": 40.5,
+      "updated_at": "2026-08-21T09:20:08.187789+00:00"
+    },
+    "PAX": {
+      "status": "NO SIGNAL",
+      "score": 46.8,
+      "risk_score": 20.3,
+      "updated_at": "2026-08-21T09:20:09.656007+00:00"
+    },
+    "PAYO": {
+      "status": "NO SIGNAL",
+      "score": 39.6,
+      "risk_score": 48.4,
+      "updated_at": "2026-08-21T09:20:10.440758+00:00"
+    },
+    "PAYS": {
+      "status": "WATCH",
+      "score": 69.2,
+      "risk_score": 39.7,
+      "updated_at": "2026-08-21T09:20:11.415028+00:00"
+    },
+    "PAYX": {
+      "status": "NO SIGNAL",
+      "score": 56.4,
+      "risk_score": 33.9,
+      "updated_at": "2026-08-21T09:20:12.329630+00:00"
+    },
+    "PBAM": {
+      "status": "NO SIGNAL",
+      "score": 51.5,
+      "risk_score": 15.8,
+      "updated_at": "2026-08-21T09:20:12.993408+00:00"
+    },
+    "PBYI": {
+      "status": "WATCH",
+      "score": 66.5,
+      "risk_score": 39.2,
+      "updated_at": "2026-08-21T09:20:15.525119+00:00"
+    },
+    "PCAR": {
+      "status": "NO SIGNAL",
+      "score": 39.7,
+      "risk_score": 33.3,
+      "updated_at": "2026-08-21T09:20:16.887134+00:00"
+    },
+    "PCB": {
+      "status": "NO SIGNAL",
+      "score": 39.5,
+      "risk_score": 24.6,
+      "updated_at": "2026-08-21T09:20:17.784375+00:00"
+    },
+    "PCRX": {
+      "status": "NO SIGNAL",
+      "score": 44.0,
+      "risk_score": 26.6,
+      "updated_at": "2026-08-21T09:20:18.571938+00:00"
+    },
+    "PCT": {
+      "status": "NO SIGNAL",
+      "score": 29.7,
+      "risk_score": 70.4,
+      "updated_at": "2026-08-21T09:20:19.769796+00:00"
+    },
+    "PCTY": {
+      "status": "NO SIGNAL",
+      "score": 62.6,
+      "risk_score": 23.2,
+      "updated_at": "2026-08-21T09:20:20.943964+00:00"
+    },
+    "PCVX": {
+      "status": "NO SIGNAL",
+      "score": 39.9,
+      "risk_score": 40.7,
+      "updated_at": "2026-08-21T09:20:21.717653+00:00"
+    },
+    "PCYO": {
+      "status": "NO SIGNAL",
+      "score": 58.5,
+      "risk_score": 46.1,
+      "updated_at": "2026-08-21T09:20:22.621692+00:00"
+    },
+    "PDEX": {
+      "status": "NO SIGNAL",
+      "score": 59.2,
+      "risk_score": 57.4,
+      "updated_at": "2026-08-21T09:20:23.252446+00:00"
+    },
+    "PDFS": {
+      "status": "NO SIGNAL",
+      "score": 47.5,
+      "risk_score": 46.1,
+      "updated_at": "2026-08-21T09:20:24.007148+00:00"
+    },
+    "PDLB": {
+      "status": "NO SIGNAL",
+      "score": 49.4,
+      "risk_score": 20.4,
+      "updated_at": "2026-08-21T09:20:24.732112+00:00"
+    },
+    "PDYN": {
+      "status": "NO SIGNAL",
+      "score": 36.9,
+      "risk_score": 66.6,
+      "updated_at": "2026-08-21T09:20:25.976180+00:00"
+    },
+    "PEBK": {
+      "status": "NO SIGNAL",
+      "score": 35.2,
+      "risk_score": 46.7,
+      "updated_at": "2026-08-21T09:20:26.676207+00:00"
+    },
+    "PEBO": {
+      "status": "NO SIGNAL",
+      "score": 48.3,
+      "risk_score": 15.7,
+      "updated_at": "2026-08-21T09:20:27.606371+00:00"
+    },
+    "PECO": {
+      "status": "NO SIGNAL",
+      "score": 50.7,
+      "risk_score": 9.8,
+      "updated_at": "2026-08-21T09:20:28.461327+00:00"
+    },
+    "PEGA": {
+      "status": "NO SIGNAL",
+      "score": 44.1,
+      "risk_score": 35.3,
+      "updated_at": "2026-08-21T09:20:29.331194+00:00"
+    },
+    "PENG": {
+      "status": "NO SIGNAL",
+      "score": 48.0,
+      "risk_score": 55.3,
+      "updated_at": "2026-08-21T09:20:30.091298+00:00"
+    },
+    "PENN": {
+      "status": "NO SIGNAL",
+      "score": 29.8,
+      "risk_score": 70.7,
+      "updated_at": "2026-08-21T09:20:30.732936+00:00"
+    },
+    "PEP": {
+      "status": "NO SIGNAL",
+      "score": 49.8,
+      "risk_score": 22.1,
+      "updated_at": "2026-08-21T09:20:31.479051+00:00"
+    },
+    "PEPG": {
+      "status": "NO SIGNAL",
+      "score": 33.0,
+      "risk_score": 66.7,
+      "updated_at": "2026-08-21T09:20:32.122406+00:00"
+    },
+    "PERI": {
+      "status": "NO SIGNAL",
+      "score": 39.8,
+      "risk_score": 50.3,
+      "updated_at": "2026-08-21T09:20:32.892029+00:00"
+    },
+    "PESI": {
+      "status": "NO SIGNAL",
+      "score": 35.1,
+      "risk_score": 63.2,
+      "updated_at": "2026-08-21T09:20:33.655790+00:00"
     }
   },
   "market": "NASDAQ"
